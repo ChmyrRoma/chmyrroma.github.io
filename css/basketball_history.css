@@ -1,0 +1,104 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0 10% 0 10%;
+}
+
+a {
+	text-decoration: none;
+	margin-right: 10px;
+	color: black;
+}
+
+a:hover {
+	color: #FF7F50;
+}
+/*Header-site*/
+header {
+	margin: 10px 0 10px 0;
+	border-bottom: 2px solid black;
+	display: flex;
+	
+}
+
+.main {
+	display: flex;
+}
+
+.main-teams {
+	margin: 0 500px 0 30px;
+}
+
+.teams {
+	margin-left: 30px;
+}
+
+.main-center {
+	display: flex;
+}
+
+.page-left {
+	margin-top: 20px;
+	padding: 10px;
+	display: flex;
+	width: 50%;
+	background-color: #DCDCDC;		
+	box-shadow: 0px 0px 12px 12px #DCDCDC;
+}
+
+.page-left img {
+	width: 40%;
+	border-radius: 5px;
+/*	display: inline;*/
+	margin-right: 5%;
+}	
+
+.page-left div {
+	width: 35%;
+}
+
+.page-right {
+	margin-left: 50px;
+	margin-top: 20px;
+	padding: 10px;
+	display: flex;
+	width: 50%;
+	background-color: #DCDCDC;		
+	box-shadow: 0px 0px 12px 12px #DCDCDC;
+}
+
+.page-right img {
+	width: 50%;
+	border-radius: 5px;
+/*	display: inline;*/
+	margin-right: 5%;
+}	
+
+.page-body {
+	margin-top: 30px;
+	background-color: #AFEEEE;		
+	box-shadow: 0px 0px 12px 12px #AFEEEE;
+	text-align: center;
+}
+
+.photo-bottom {
+	padding-top: 30px
+}
+
+.text {
+	padding-bottom: 40px;
+}
+
+footer {
+	background-color: black;
+	margin-top: 50px;
+	color: white;
+	margin-left: -12.5%;
+    margin-right: -12.5%;
+    height: 100px;
+    padding-left: 13.5%;
+	padding-right: 13.5%;
+}
